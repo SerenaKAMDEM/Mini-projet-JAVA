@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Film">
+  <grid id="27dc6" binding="FilmPanel" layout-manager="GridLayoutManager" row-count="4" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="1160" height="586"/>
+    </constraints>
+    <properties>
+      <background color="-1181702"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a6e39" class="javax.swing.JButton" binding="ACCUEILButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <text value="ACCUEIL"/>
+        </properties>
+      </component>
+      <component id="e32bd" class="javax.swing.JButton" binding="DOCUMENTAIREButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <text value="DOCUMENTAIRE"/>
+        </properties>
+      </component>
+      <component id="2b1af" class="javax.swing.JButton" binding="PLAYButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <icon value="play.png"/>
+          <text value="PLAY"/>
+        </properties>
+      </component>
+      <component id="5ef34" class="javax.swing.JButton" binding="LISTEButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="26" style="1"/>
+          <icon value="add.png"/>
+          <text value="LISTE"/>
+        </properties>
+      </component>
+      <scrollpane id="3095f">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="12248" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Microsoft YaHei UI" size="22" style="1"/>
+              <icon value="subscription-business-model.png"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="1bc53">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e61f2" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Microsoft YaHei UI" size="22" style="1"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="12140">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <scrollpane id="c69c8">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="c168e" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <model>
+            <item value="GENRRE"/>
+            <item value="DRAMATIQUE"/>
+            <item value="ROMANCE"/>
+          </model>
+        </properties>
+      </component>
+      <component id="afd0c" class="javax.swing.JButton" binding="TELECHARGERButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <icon value="download.png"/>
+          <text value="TELECHARGER"/>
+        </properties>
+      </component>
+      <component id="7673c" class="javax.swing.JButton" binding="SERIEButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+          <text value="SERIE"/>
+        </properties>
+      </component>
+      <scrollpane id="7ff9f">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <hspacer id="57b84">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="cc04a">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <scrollpane id="5743">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="22" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <hspacer id="70e9a">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c2af2" class="javax.swing.JButton" binding="FILMSButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="26" style="1"/>
+          <text value="FILMS"/>
+        </properties>
+      </component>
+      <component id="ae6fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="TITRE : GO GO "/>
+        </properties>
+      </component>
+      <component id="614cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="TITRE : MIA"/>
+        </properties>
+      </component>
+      <component id="9b440" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="TITRE : SERENA"/>
+        </properties>
+      </component>
+      <component id="36eb3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="20" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="TITRE : LOVE"/>
+        </properties>
+      </component>
+      <component id="624ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei UI" size="20" style="1"/>
+          <text value="TITRE : VENGEANCE"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
